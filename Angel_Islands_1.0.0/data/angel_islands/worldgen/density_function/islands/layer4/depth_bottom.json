@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_y": 224,
+    "to_y": 288,
+    "from_value": -1,
+    "to_value": 0
+  },
+  "argument2": "angel_islands:islands/layer4/offset_bottom"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "minecraft:y",
+  "min_inclusive": -64,
+  "max_exclusive": 96,
+  "when_in_range": "angel_islands:continents/vanilla",
+  "when_out_of_range": {
+    "type": "minecraft:range_choice",
+    "input": "angel_islands:continents/vanilla",
+    "min_inclusive": -1.0,
+    "max_exclusive": -0.4,
+    "when_in_range": "angel_islands:continents/no_oceans",
+    "when_out_of_range": "angel_islands:continents/vanilla"
+  }
+}

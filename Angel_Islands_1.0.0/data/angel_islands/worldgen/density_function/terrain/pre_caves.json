@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "angel_islands:continents/vanilla",
+      "points": [
+        {
+          "location": -1.0,
+          "derivative": 0,
+          "value": -0.1
+        },
+        {
+          "location": -0.95,
+          "derivative": 0,
+          "value": {
+            "coordinate": "angel_islands:y",
+            "points": [
+              {
+                "location": 80,
+                "derivative": 0,
+                "value": -0.1
+              },
+              {
+                "location": 96,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "angel_islands:islands/final",
+                  "points": [
+                    {
+                      "location": 0,
+                      "derivative": 1,
+                      "value": 0
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "location": -0.55,
+          "derivative": 0,
+          "value": {
+            "coordinate": "angel_islands:y",
+            "points": [
+              {
+                "location": 80,
+                "derivative": 0,
+                "value": -0.1
+              },
+              {
+                "location": 96,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "angel_islands:islands/final",
+                  "points": [
+                    {
+                      "location": 0,
+                      "derivative": 1,
+                      "value": 0
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "location": -0.4,
+          "derivative": 0,
+          "value": -0.1
+        }
+      ]
+    }
+  }
+}
