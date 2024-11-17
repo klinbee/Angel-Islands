@@ -4,8 +4,8 @@
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
-  "temperature": 0.5,
-  "downfall": 0.8,
+  "temperature": 0.8,
+  "downfall": 0.4,
   "has_precipitation": true,
   "effects": {
     "fog_color": 12638463,
